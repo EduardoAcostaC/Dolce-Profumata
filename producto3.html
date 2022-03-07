@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolce Profumata</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/Logotipo.svg" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+        <a class="navegacion__enlace" href="gusto.html">A tu gusto</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Tiramisú</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/4.jpg" alt="Imagen del Producto">
+
+            <div class="camisa__contenido">
+                <p>Postre italiano creado en la década de 1970, presentado en forma de pastel, a base de capas de pasta de bizcocho o de genovesa emborrachada de whisky y café, y capas de crema de mascarpone y huevos (yemas y claras batidas).</p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Seleccione la cantidad de rebanadas --</option>
+                        <option>15 rebanadas</option>
+                        <option>25 rebanadas</option>
+                        <option>30 rebanadas</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad de pisos" min="2">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Dolce Profumata Pasticceria - Todos los derechos Reservados 2022.</p>
+    </footer>
+    
+</body>
+</html>
